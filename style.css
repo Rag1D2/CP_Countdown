@@ -4,13 +4,35 @@ body {
 
 .header {
   width: 100vw;
-  height: 20vh;
+  height: 15vh;
   background-color: #444;
 }
 
+.countdown {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.timer {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 25px;
+}
+.numbers {
+  text-align: center;
+}
+
+.labels {
+  text-align: center;
+}
+
 .footer {
+  font-size: 20px;
   background-color: pink;
   width: 100vw;
   height: 10vh;
   text-align: center;
+  display: flex;
+  justify-content: center;
 }
