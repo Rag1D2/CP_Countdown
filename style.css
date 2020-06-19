@@ -5,10 +5,11 @@ body {
 .header {
   width: 100vw;
   height: 15vh;
-  background-color: #444;
+  background: url(/img/CP2.jpg);
 }
 
 .countdown {
+  font-family: sans-serif;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -19,20 +20,27 @@ body {
   justify-content: center;
   padding-bottom: 25px;
 }
+
 .numbers {
   text-align: center;
 }
 
 .labels {
+  font-family: sans-serif;
   text-align: center;
 }
 
 .footer {
   font-size: 20px;
+  font-family: sans-serif;
   background-color: pink;
   width: 100vw;
   height: 10vh;
-  text-align: center;
   display: flex;
+  align-items: flex-end;
   justify-content: center;
+}
+
+.made {
+  padding-bottom: 20px;
 }
