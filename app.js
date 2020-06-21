@@ -1,8 +1,8 @@
-let countDownDate = new Date("Nov 19, 2020 00:00:00").getTime();
+let releaseDate = new Date("Nov 19, 2020 00:00:00").getTime();
 
-function releaseDate() {
+function countdown() {
   let now = new Date().getTime();
-  let timeGap = countDownDate - now;
+  let timeGap = releaseDate - now;
 
   let seconds = 1000;
   let minutes = seconds * 60;
@@ -21,5 +21,5 @@ function releaseDate() {
 }
 
 setInterval(() => {
-  releaseDate();
+  countdown();
 }, 1000);
