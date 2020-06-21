@@ -8,7 +8,7 @@
 }
 body {
   margin: 0;
-  background: #000 url(/img/CP1.png);
+  background: #000 url(CP1.png);
   background-attachment: fixed;
   background-blend-mode: hard-light;
 }
@@ -44,7 +44,7 @@ body {
   left: 100px;
   right: 100px;
   bottom: 80px;
-  background: url(/img/CP1.png);
+  background: url(CP1.png);
   background-attachment: fixed;
   display: flex;
   justify-content: center;
