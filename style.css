@@ -127,6 +127,7 @@ body {
 /* IMAGE DISPLAY */
 
 .img-container {
+  align-self: center;
   position: relative;
   padding-top: 48%;
   max-width: 70%;
