@@ -1,3 +1,4 @@
+// COUNTDOWN TIMER
 let releaseDate = new Date("Nov 19, 2020 00:00:00").getTime();
 
 function countdown() {
@@ -23,3 +24,13 @@ function countdown() {
 setInterval(() => {
   countdown();
 }, 1000);
+
+// IMG DISPLAY
+const current = document.querySelector("#current");
+const imgs = document.querySelectorAll(".imgs img");
+
+imgs.forEach((img) => img.addEventListener("click", imgClick));
+
+function imgClick(e) {
+  current.src = e.target.src;
+}
