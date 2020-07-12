@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Countdown To CyberPunk</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/simple-lightbox.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <div class="container">
@@ -13,10 +14,10 @@
         <div class="timer-container">
           <h2><span>Countdown to</span> CyberPunk 2077</h2>
           <div class="countdown">
-            <div id="days">NA</div>
-            <div id="hours">NA</div>
-            <div id="minutes">NA</div>
-            <div id="seconds">NA</div>
+            <div id="days">0</div>
+            <div id="hours">0</div>
+            <div id="minutes">0</div>
+            <div id="seconds">0</div>
           </div>
         </div>
       </div>
@@ -24,25 +25,46 @@
     <!-- END COUNTDOWN TIMER -->
 
     <!-- IMAGE DISPLAY -->
-    <div class="img-container">
-      <div class="main-img">
-        <img id="current" src="img/cp2.jpg" />
+    <section class="section-c">
+      <div class="gallery">
+        <a href="img/cp2.jpg" class="big pics">
+          <img src="img/cp2.jpg" alt="" />
+        </a>
+        <a href="img/cp3.jpg" class="big pics">
+          <img src="img/cp3.jpg" alt="" />
+        </a>
+        <a href="img/cp4.jpg" class="big pics">
+          <img src="img/cp4.jpg" alt="" />
+        </a>
+        <a href="img/cp5.jpg" class="big pics">
+          <img src="img/cp5.jpg" alt="" />
+        </a>
+        <a href="img/cp6.jpg" class="big pics">
+          <img src="img/cp6.jpg" alt="" />
+        </a>
+        <a href="img/cp7.jpg" class="big pics">
+          <img src="img/cp7.jpg" alt="" />
+        </a>
+        <a href="img/cp8.jpg" class="big pics">
+          <img src="img/cp8.jpg" alt="" />
+        </a>
+        <a href="img/cp9.jpg" class="big pics">
+          <img src="img/cp9.jpg" alt="" />
+        </a>
+        <a href="img/cp10.jpg" class="big pics">
+          <img src="img/cp10.jpg" alt="" />
+        </a>
+        <a href="img/cp11.jpg" class="big pics">
+          <img src="img/cp11.jpg" alt="" />
+        </a>
+        <a href="img/cp12.jpg" class="big pics">
+          <img src="img/cp12.jpg" alt="" />
+        </a>
+        <a href="img/cp13.jpg" class="big pics">
+          <img src="img/cp13.jpg" alt="" />
+        </a>
       </div>
-      <div class="imgs">
-        <img src="img/cp2.jpg" />
-        <img src="img/cp3.jpg" />
-        <img src="img/cp4.jpg" />
-        <img src="img/cp5.jpg" />
-        <img src="img/cp6.jpg" />
-        <img src="img/cp7.jpg" />
-        <img src="img/cp8.jpg" />
-        <img src="img/cp9.jpg" />
-        <img src="img/cp10.jpg" />
-        <img src="img/cp11.jpg" />
-        <img src="img/cp12.jpg" />
-        <img src="img/cp13.jpg" />
-      </div>
-    </div>
+    </section>
     <!-- END IMAGE DISPLAY -->
 
     <!-- FOOTER -->
@@ -53,7 +75,10 @@
       </div>
     </footer>
     <!-- END FOOTER -->
-
+    <script src="simple-lightbox.min.js"></script>
+    <script>
+      const lightbox = new SimpleLightbox('.gallery a');
+    </script>
     <script src="app.js"></script>
   </body>
 </html>
