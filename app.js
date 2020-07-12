@@ -26,5 +26,5 @@ setInterval(() => {
 }, 1000);
 
 // IMG DISPLAY
-
+const lightbox = new SimpleLightbox(".gallery a");
 // VIDEO DISPLAY
